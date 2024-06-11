@@ -1,0 +1,302 @@
+
+   /* * {
+    margin: 0;
+}
+#map {
+    width:100%;
+    height:100vh;
+    z-index: -1;
+}
+
+.navbar-header {
+    z-index: 1;
+    position: absolute;
+    padding: 19px;
+    right: 0;
+
+}
+
+.nav-text {
+    color:black;
+    font-weight: 600;
+    opacity: 1;
+} */
+
+
+
+  
+/* frontend & search  */
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    
+    /* background-color: black; */
+  }
+  
+
+
+.parent {
+    /* display: flex; */
+     /* background-color:rgba(27, 27, 27, 1); */
+     /* justify-content:space-between; */
+     width: 100vw;
+     /* padding:30px 30px 0 30px;  */
+     color:rgb(0, 0, 0);
+     /* position: fixed; */
+     /* top:0;
+     left:0;
+     z-index: 1000; */
+
+
+}
+.thin-navigation {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    
+    /* width: 100%; */
+    /* text-align: center; */
+    padding:5px 0 0 10px;
+    /* margin: auto; */
+    /* z-index: -1; */
+    /* font-size: 30px;
+    font-weight: 500; */
+    /* position: relative; */
+    /* left:580px; */
+   
+    /* padding-top: 500px; */
+}
+.first {
+    display: flex;
+    font-size: 35px;
+
+}
+.second {
+    display: flex;
+    align-items: end;
+    /* position: relative; */
+    font-size: 35px;
+    /* right:100px; */
+}
+
+/* .first .home {
+    margin-right: 20px;
+} */
+
+.second #state {
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 8px;
+}
+
+.drop-down {
+    text-align: center;
+}
+
+.state {
+    position: relative;
+    top:8px;
+}
+
+/* .second .map {
+    margin-right:25px;
+} */
+
+
+.footer {
+    position: relative;
+    bottom:0;
+    /* background-color:rgba(12, 64, 236, 0.2); */
+    width: 100%;
+    padding:20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    z-index: 100;
+    top:25px;
+    color:rgb(0, 0, 0);
+}
+
+.main-body {
+    height: fit-content;
+    
+    display:flex;
+    margin-top:30px;
+    margin-bottom: 10px;
+    /* background-color: black; */
+    color:rgb(0, 0, 0);
+    opacity: 1;
+   
+}
+
+img {
+   
+
+ /* Use fixed to ensure it stays in place */
+  top: 10;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1; /* Ensure it is behind other content */
+
+}
+
+/* .main-content {
+    text-align: center;
+    position: relative;
+} */
+.main-body-p {
+    /* font-size: 23px; */
+    /* padding:5px; */
+    line-height: 35px;
+    font-style: italic;
+}
+
+
+
+.thin-navigation .thin-item {
+    /* margin-top: 500px; */
+    padding:10px;
+    border-radius: 5px;
+    
+
+}
+
+a {
+    /* text-decoration: none; */
+    color:rgb(255, 255, 255);
+    background-color:rgb(0, 0, 0);
+    border-radius: 5px;
+    margin-right:20px; 
+
+    padding: 10px 20px;
+    /* background-color: #4CAF50; Green */
+    /* color: white; */
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+a:hover {
+    /* background-color:black; */
+    color:rgb(69, 68, 68);
+}
+
+#map {
+    /* margin-top: 700px; 
+     height:800px;
+    */
+    width: 100%;
+    height: 500px; /* Adjust height as needed */
+    margin-top: 30px; /* Adjust margin as needed */
+    position: relative; /* Ensure these elements are above the fullscreen image */
+    z-index: 1; /* This z-index ensures they are above the fullscreen image */
+    padding: 20px;
+    color: white;
+}
+
+
+/* rohan css */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#map {
+    height: 100vh;
+    /* z-index: 9999; */
+    
+}
+.leaflet-popup-content-wrapper{
+    padding: 0;
+    overflow: hidden;
+}
+.leaflet-popup-content-wrapper .leaflet-popup-content {
+    margin: 0;
+}
+
+.leaflet-popup-content-wrapper p {
+    padding: 0 16px;
+    font-size: 14px;
+    margin-bottom: 14px;
+}
+
+.leaflet-popup-content-wrapper h4 {
+    padding: 16px;
+    background: #2c5ae3;
+    color: #fff;
+    font-size: 16px;
+}
+
+
+
+/* footer */
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.footer-section h3 {
+    margin-bottom: 10px;
+}
+
+.footer-section p {
+    font-size: 14px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 5px;
+}
+
+.footer-section a {
+    color:rgb(245, 240, 240);
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    color:rgb(78, 76, 76);
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+}
+h1{
+    text-align: center;
+}
+/* .map-anchor {
+    margin-right: 80px;
+} */
